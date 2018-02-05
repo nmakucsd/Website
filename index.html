@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>VR Club at UCSD</title>
+
+	<link rel="icon" href="./images/Logo_Final_Square_lowres.png" type="image/png"/>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+        <div id="header">
+    			<div class="container">
+    				<div role="navigation" class="navbar-custom navbar navbar-default navbar-fixed-top navbar-inverse">
+    					<div class="container-fluid">
+    						<div class="navbar-header">
+    							<button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle">
+    								<span class="sr-only">Toggle navigation</span>
+    								<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+    							</button>
+    							<a href="/" class="navbar-brand"><img style="margin-top:-17%;height:200%;" src="./images/Logo_Final_Square_lowres.png"></a>
+    						</div>
+    						<div class="collapse navbar-collapse">
+    							<ul class="nav navbar-nav navbar-left">
+    									<li>
+    										<a style="color:white !important;"href="./index.html">Home</a>
+    									</li>
+                      <li >
+                        <a href="/about" style="color:white !important;" >About</a>
+                      </li>
+			<li>
+			<a style="color:white !important;"href="https://ucsdvr.wordpress.com/posts/">Blog</a>
+			</li>
+			<li>
+			<a style="color:white !important;"href="/projects">Projects</a>
+			</li>
+			<li>
+			<a style="color:white !important;"href="http://hackxr.io/">Hackathon</a>
+			</li>
+    							</ul>
+    							<!--<ul class="nav navbar-nav navbar-right">
+    								{{#if user}}
+    								<li><a href="/keystone/signout">Sign Out</a></li>
+    								{{else}}
+    								<li><a href="/keystone/signin">Sign In</a></li>
+    								{{/if}}
+    							</ul>-->
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+
+    <div>
+    	<!--<div class="jumbotron"><img src="/images/logo.svg" width="160">
+    		<h1>Welcome</h1>
+    		<p>This is your new <a href='http://keystonejs.com' target='_blank'>KeystoneJS</a> website.</p>
+    		<p>
+    			It includes the latest versions of
+    			<a href='http://getbootstrap.com/' target='_blank'>Bootstrap</a>
+    			and <a href='http://www.jquery.com/' target='_blank'>jQuery</a>.
+    		</p>
+    		<p>Visit the <a href='http://keystonejs.com/guide' target='_blank'>Getting Started</a> guide to learn how to customise it.</p>
+    		<hr>
+    		<p>We have created a default Admin user for you with the email <strong>user@keystonejs.com</strong> and the password <strong>admin</strong>.</p>
+    		<p><a href="/keystone/signin" style="margin-right: 10px" class="btn btn-lg btn-primary">Sign in</a> to use the Admin UI.</p>
+    		<hr>
+    		<p>
+    			Remember to <a href='https://github.com/keystonejs/keystone' target='_blank'>Star KeystoneJS on GitHub</a> and
+    			<a href='https://twitter.com/keystonejs' target='_blank'>follow @keystonejs</a> on twitter for updates.
+    		</p>
+    	</div>-->
+    	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+
+
+    	<style>
+            .navbar-custom{
+                background-color: #0881A3;
+                font-family: Cabin;
+            }
+
+            .navbar-left > li > a {
+                color: black !important;
+            }
+
+            .welcome-banner{
+                background-color: #233142;
+            }
+
+            .banner-image{
+                max-width: 90%;
+                max-height: 40rem !important;
+                margin: 3%rem;
+
+            }
+
+            .footer{
+                background-color: #005689;
+                min-height: 25vh !important;
+                font-family: Cabin;
+                color: white;
+            }
+
+            @font-face {
+                font-family: Cabin;
+                src: url("./fonts/cabin/Cabin-SemiBold.otf") format("opentype");
+            }
+
+            .links{
+                font-family: 'Open Sans', sans-serif;
+                color: black;
+            }
+
+            .links > p > a {
+                color: black;
+            }
+
+            .flexbox-container {
+                display: -ms-flex;
+                display: -webkit-flex;
+                display: flex;
+            }
+
+            .flexbox-container > div {
+                width: 50%;
+            }
+
+            .flexbox-container > div:first-child {
+                margin-right: 10%;
+                width: 40%;
+            }
+
+
+            .side-info{
+                margin-left: 50%;
+            }
+
+            .side-info2{
+                font-family: Cabin;
+                margin-right: 50%;
+            }
+
+            .events{
+                background-color: #2B3964;
+                min-height: 75vh !important;
+                color: white;
+            }
+
+            .project-preview{
+                height: 25rem;
+                width: 25rem;
+                border-radius: 0.5rem;
+                background-color: tomato;
+                display: inline-block;
+                margin: 1rem;
+            }
+
+            .carousel-inner > .item > img,
+            .carousel-inner > .item > a > img {
+              height: 50rem !important;    /* Set slide height here */
+                width: 100%;
+            }
+
+            .officer-card {
+                background-color: #F85F73;
+                height: 35rem;
+                margin-bottom: 3.5rem;
+            }
+
+            .officer-card > img {
+                height: 80%;
+                width: 100%;
+
+            }
+
+
+    	</style>
+    	<section class="welcome-banner" id="container">
+    		<br><br><br>
+    		<center><img class="banner-image" src="./images/Newsletter_Banner.png"></center>
+    	</section>
+
+
+<br><br>
+    	<section class="container" id="about">
+    		<center><h1 style="font-family:Cabin;">Build. Learn. Explore.</h1></center>
+    		<center>
+    			<p style="font-family: 'Open Sans', sans-serif; font-size: 1.3em;">
+			The Virtual Reality Club at UCSD is a student organization at UC San Diego that connects members with the VR industry through workshops, projects, and networking. Our mission is to foster a multidisciplinary community dedicated to exploring and creating Virtual and Augmented Reality experiences.
+
+    			</p>
+<br>
+
+
+    					<center><a class="btn btn-default" style="font-family:Cabin; font-size:1.3em; padding: 0.75em;" href="http://eepurl.com/czACCb">Join the club</a></button></center>
+<br>
+
+    					<img style="width:100%;" src="./images/welcome.jpg">
+
+
+    			<br>
+
+    		</center>
+    	</section>
+    	<br>
+    	<br>
+
+    	<section class="learn-with-us" id="resources" style="padding:2rem; background-color: #ef5353;">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-sm-6" style="padding:1rem;">
+    					<img style="width:100%;" src="./images/jurgen_sdhacks.jpg">
+    				</div>
+
+    				<div class="col-sm-6" style="display: inline-block;">
+    					<h2 style="font-family: Cabin;">Make VR</h2>
+    					<p style="font-family: 'Open Sans', snans-serif; font-size: 1.15em;">There's no better way to learn VR than to actually make it, which is why we encourage VR Club members of all majors and interests to join a VR Club project! Any member can propose a project idea, and VR CLub provides the resources, mentorship, publicity, and space to make it happen.</p>
+<br>
+<p style="font-family: 'Open Sans', snans-serif; font-size: 1.15em; float: right; bottom: 0px;">Visit our <a href="/projects" >Projects Page</a></p>
+    				</div>
+    			</div>
+    		</div>
+    	</section>
+
+    	<section class="start-with-us" style="padding: 2rem; background-color:#392F2F;color:white;">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-sm-6" style="display: inline-block;">
+    					<h2 style="font-family: Cabin;">Learn VR</h2>
+    					<p style="font-family: 'Open Sans', snans-serif; font-size: 1.15em;">Every week, VR Club holds a workshop open to all UCSD students. These workshops alternate between technical and non-technical, meaning anyone is able to attend and learn more about VR, and the procss trough which VR experiences are created. Feel free to check out our workshop slides at any time.</p>
+<br>
+<p style="font-family: 'Open Sans', snans-serif; font-size: 1.15em; float: left; bottom: 0px;">Visit our <a href="https://bit.ly/ucsdvrworkshops" >Workshop Drive</a></p>
+    				</div>
+
+    				<div class="col-sm-6" style="padding:1rem;">
+    					<img style="width:100%;" src="./images/gbm.jpg">
+    				</div>
+    			</div>
+    		</div>
+    	</section>
+
+    	<section class="learn-with-us" id="resources" style="padding:2rem; background-color: #ffc045;">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-sm-6" style="padding:1rem;">
+    					<img style="width:100%;" src="./images/demo.jpg">
+    				</div>
+
+    				<div class="col-sm-6" style="display: inline-block;">
+    					<h2 style="font-family: Cabin;">Explore VR</h2>
+    					<p style="font-family: 'Open Sans', snans-serif; font-size: 1.15em;">Every quearter, VR Club holds a total of two large-scale demo events. At the beginning of each quarter, we show professional VR content that we think you'll enjoy, with varied experiences for returning members. At the end of every quarter, we hold a project showcase, where VR Club members can demo what they've worked on</p>
+<br>
+<p style="font-family: 'Open Sans', snans-serif; font-size: 1.15em; float: right; bottom: 0px;">Visit our <a href="https://steamcommunity.com/groups/ucsdvr">Steam Community</a></p>
+    				</div>
+    			</div>
+    		</div>
+    	</section>
+
+    	<section class="start-with-us" style="padding: 2rem; background-color: #065471;color:white;">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-sm-6" style="display: inline-block;">
+    					<h2 style="font-family: Cabin;">Share VR</h2>
+    					<p style="font-family: 'Open Sans', snans-serif; font-size: 1.15em;">Virtual Reality is still an emerging technology that's relatively niche, and we want to help VR enthusiasts at UCSD connect with others interested in VR. We hold regular club socials, outings, demos, and holiday events to encourage members of VR Club to interact with each other and grow the VR Club community.</p>
+
+<p style="font-family: 'Open Sans', snans-serif; font-size: 1.15em; float: left; bottom: 0px;">Visit our <a href="https://facebook.com/groups/ucsdvr">Facebook Group</a></p>
+    				</div>
+    				<div class="col-sm-6" style="padding:1rem;">
+    					<img style="width:100%;" src="./images/spread.jpg">
+    				</div>
+    			</div>
+    		</div>
+    	</section>
+
+
+    	<section class="learn-with-us" id="resources" style="padding:2rem; background-color: #222831; color: white;">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-sm-6" style="padding:1rem;">
+    					<img style="width:100%;" src="./images/work.jpg">
+    				</div>
+
+    				<div class="col-sm-6" style="display: inline-block;">
+    					<h2 style="font-family: Cabin;">Work VR</h2>
+    					<p style="font-family: 'Open Sans', snans-serif; font-size: 1.15em;">VR Club partners with innovative companies and startups that have stakes in the VR industry. We aim to bringing recruiters, developers, evangelists, and brand managers in contact with club members, with the hope that our students can obtain a career in the growing VR industry.</p>
+<br>
+<p style="font-family: 'Open Sans', snans-serif; font-size: 1.15em; float: right; bottom: 0px;">Learn more by contacting <b>sponsor@ucsdvr.club</b></p>
+    				</div>
+    			</div>
+    		</div>
+    	</section>
+
+    	<section class="start-with-us" style="padding: 2rem; background-color: #eeeeee;color: black;">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-sm-6" style="display: inline-block;">
+    					<h2 style="font-family: Cabin;">Spread VR</h2>
+    					<p style="font-family: 'Open Sans', snans-serif; font-size: 1.15em;">We regularly partner with local schools, organizations, companies, nonprofits, and other student groups to deliver immersive VR content and provide exciting opportunities for club members and community members alike. If you're interested in making an impact, we accept volunteers for all VR Club outreach.</p>
+
+<p style="font-family: 'Open Sans', snans-serif; font-size: 1.15em; float: left; bottom: 0px;">Visit our <a href="https://facebook.com/groups/ucsdvrvolunteers">Volunteers Group</a></p>
+    				</div>
+    				<div class="col-sm-6" style="padding:1rem;">
+    				<img style="width:100%;" src="./images/kid.jpg">
+    				</div>
+    			</div>
+    		</div>
+    	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="calendar" style="padding-top: 4rem; padding-bottom: 2rem;background-color: #0881A3;">
+
+            <div class="container">
+                <h2 style="font-family: Cabin; color: black;">Follow our events calendar!</h2>
+                <div class="flexbox-container">
+
+                    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=ucsdvr.club_a9k7k2b3aq7vu1l568rfeqaod4%40group.calendar.google.com&amp;color=%230F4B38&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+
+                </div>
+            </div>
+        </section>
+
+    	<footer class="footer">
+    			<br>
+          <div class="container">
+    				<h1 style="color:white; font-family: Cabin; font-size: 1.8rem;">VR CLUB at UCSD</h1>
+    				<div class="flexbox-container">
+    					<div>
+    						<p>SITEMAP</p>
+    						<div class="links">
+    							<p><a href="#about">About</a><p>
+    							<p><a href="#resources">Resources</a><p>
+    							<p><a href="https://ucsdvr.wordpress.com/posts/">Blog</a><p>
+    						</div>
+    					</div>
+    					<div>
+    						<p>GET IN TOUCH</p>
+    						<div class="links">
+    							virtualreality@ucsd.edu
+    						</div>
+    					</div>
+    				</div>
+          </div>
+    			<br><br>
+    	</footer>
+    </div>
+  </body>
+
+</html>

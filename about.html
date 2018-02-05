@@ -1,0 +1,360 @@
+http://hackxr.io/<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>VR Club at UCSD</title>
+	<link rel="icon" href="./images/Logo_Final_Square_lowres.png" type="image/png"/>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+        <div id="header">
+                <div class="container">
+                    <div role="navigation" class="navbar-custom navbar navbar-default navbar-fixed-top navbar-inverse">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                                </button>
+                                <a href="/" class="navbar-brand"><img style="margin-top:-17%;height:200%;" src="./images/VR_Club-logo.png"></a>
+                            </div>
+                            <div class="collapse navbar-collapse">
+                                <ul class="nav navbar-nav navbar-left">
+<li>
+    										<a style="color:white !important;"href="./index.html">Home</a>
+    									</li>
+                      <li >
+                        <a href="/about" style="color:white !important;" >About</a>
+                      </li>
+			<li>
+			<a style="color:white !important;"href="https://ucsdvr.wordpress.com/posts/">Blog</a>
+			</li>
+			<li>
+			<a style="color:white !important;"href="/projects">Projects</a>
+			</li>
+			<li>
+			<a style="color:white !important;"href="http://hackxr.io/">Hackathon</a>
+			</li>
+
+                               </ul>
+                                <!--<ul class="nav navbar-nav navbar-right">
+                                    {{#if user}}
+                                    <li><a href="/keystone/signout">Sign Out</a></li>
+                                    {{else}}
+                                    <li><a href="/keystone/signin">Sign In</a></li>
+                                    {{/if}}
+                                </ul>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    <div>
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+
+
+        <style>
+            .navbar-custom{
+                background-color: #0881A3;
+                font-family: Cabin;
+            }
+
+            .navbar-left > li > a {
+                color: black !important;
+            }
+
+            .welcome-banner{
+background-color: #233142;
+
+
+            }
+
+            .banner-image{
+                max-width: 100%;
+                max-height: 40rem !important;
+                margin: 3rem;
+
+            }
+
+            .footer{
+                background-color: #005689;
+                min-height: 25vh !important;
+                font-family: Cabin;
+                color: white;
+            }
+
+            @font-face {
+                font-family: Cabin;
+                src: url("./fonts/cabin/Cabin-SemiBold.otf") format("opentype");
+            }
+
+            .links{
+                font-family: 'Open Sans', sans-serif;
+                color: black;
+            }
+
+            .links > p > a {
+                color: black;
+            }
+
+            .flexbox-container {
+                display: -ms-flex;
+                display: -webkit-flex;
+                display: flex;
+            }
+
+            .flexbox-container > div {
+                width: 50%;
+            }
+
+            .flexbox-container > div:first-child {
+                margin-right: 10%;
+                width: 40%;
+            }
+
+
+            .side-info{
+                margin-left: 50%;
+            }
+
+            .side-info2{
+                font-family: Cabin;
+                margin-right: 50%;
+            }
+
+            .events{
+                background-color: #2B3964;
+                min-height: 75vh !important;
+                color: white;
+            }
+
+            .project-preview{
+                height: 25rem;
+                width: 25rem;
+                border-radius: 0.5rem;
+                background-color: tomato;
+                display: inline-block;
+                margin: 1rem;
+            }
+
+            .carousel-inner > .item > img,
+            .carousel-inner > .item > a > img {
+              height: 50rem !important;    /* Set slide height here */
+                width: 100%;
+            }
+
+            .officer-card {
+                height: 22em;
+	        width:  22em;
+                margin-bottom: 3.5rem;
+            }
+
+            .officer-card > img {
+                height: 80%;
+                width: 80%;
+
+            }
+
+
+
+        </style>
+        <section class="welcome-banner" id="container">
+            <br><br><br>
+<center><img class="banner-image" src="./images/Newsletter_Banner.png"></center>
+        </section>
+
+
+
+        <section class="container" id="about">
+            <center><h1 style="font-family:Cabin; font-size: 4rem;">Who we are</h1></center>
+            <center>
+                <p style="font-family: 'Open Sans', sans-serif; font-size: 1.3em;">
+The Virtual Reality Club at UCSD is a student organization at UC San Diego that connects members with the VR industry through workshops, projects, and networking. Our mission is to foster a multidisciplinary community dedicated to exploring and creating Virtual and Augmented Reality experiences.
+                </p>
+                <br>
+
+               <div class="cards">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="officer-card">
+                                <img src="./images/anish-card.png" >
+                                <p style="font-family:Cabin; font-size:1.4em; margin-bottom: 0px; margin-top: 0.5em;">
+                                Anish Kannan
+                                </p>
+                                <p style="font-family: 'Open Sans'; font-size: 1.2em;">
+                                Project Manager
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="officer-card">
+                                <img src="./images/connor-card.png" >
+                                <p style="font-family:Cabin; font-size:1.4em; margin-bottom: 0px; margin-top: 0.5em">
+                                Connor Smith
+                                </p>
+                                <p style="font-family: 'Open Sans'; font-size: 1.2em;">
+                                President
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="officer-card">
+                                <img src="./images/dale-card.png" >
+                                <p style="font-family:Cabin; font-size:1.4em; margin-bottom: 0px; margin-top: 0.5em">
+                                Dale Tubat
+                                </p>
+                                <p style="font-family: 'Open Sans'; font-size: 1.2em;">
+                                Vice President
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="officer-card">
+                                <img src="./images/janice-card.png" >
+                                <p style="font-family:Cabin; font-size:1.4em; margin-bottom: 0px; margin-top: 0.5em">
+                                Janice Zhao
+                                </p>
+                                <p style="font-family: 'Open Sans'; font-size: 1.2em;">
+                               Social Media Manager
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="officer-card">
+                                <img src="./images/greg-card.png" >
+                                <p style="font-family:Cabin; font-size:1.4em; margin-bottom: 0px; margin-top: 0.5em">
+                                Greg Morgan
+                                </p>
+                                <p style="font-family: 'Open Sans'; font-size: 1.2em;">
+                                Branding
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="officer-card">
+                                <img src="./images/katy-card.png" >
+                                <p style="font-family:Cabin; font-size:1.4em; margin-bottom: 0px; margin-top: 0.5em">
+                                Katy Zou
+                                </p>
+                                <p style="font-family: 'Open Sans'; font-size: 1.2em;">
+                                Event Coordinator
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="officer-card">
+                                <img src="./images/nisha-card.png" >
+                                <p style="font-family:Cabin; font-size:1.4em; margin-bottom: 0px; margin-top: 0.5em">
+                                Nisha Yerunkar
+                                </p>
+                                <p style="font-family: 'Open Sans'; font-size: 1.2em;">
+                                Equipment Manager
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="officer-card">
+                                <img src="./images/nick-card.jpg">
+                                <p style="font-family:Cabin; font-size:1.4em; margin-bottom: 0px; margin-top: 0.5em">
+                                Nick Crow
+                                </p>
+                                <p style="font-family: 'Open Sans'; font-size: 1.2em;">
+                                Treasurer
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="officer-card">
+                                <img src="./images/joanne-card.png">
+                                <p style="font-family:Cabin; font-size:1.4em; margin-bottom: 0px; margin-top: 0.5em">
+                                Joanne Lee
+                                </p>
+                                <p style="font-family: 'Open Sans'; font-size: 1.2em;">
+                                Community Outreach
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="officer-card">
+                                <img src="./images/kevin-card.jpg" >
+                                <p style="font-family:Cabin; font-size:1.4em; margin-bottom: 0px; margin-top: 0.5em">
+                                Kevin Lai
+                                </p>
+                                <p style="font-family: 'Open Sans'; font-size: 1.2em;">
+                                Corporate Outreach
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="officer-card">
+                                <img src="./images/robin-card.png">
+                                <p style="font-family:Cabin; font-size:1.4em; margin-bottom: 0px; margin-top: 0.5em">
+                                Robin Xu
+                                </p>
+                                <p style="font-family: 'Open Sans'; font-size: 1.2em;">
+                                Historian
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="officer-card">
+                                <img src="./images/vicky-card.png">
+                                <p style="font-family:Cabin; font-size:1.4em; margin-bottom: 0px; margin-top: 0.5em">
+                                Vicky Intara
+                                </p>
+                                <p style="font-family: 'Open Sans'; font-size: 1.2em;">
+                                Public Relations
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </center>
+        </section>
+        <br>
+        <br>
+
+        <footer class="footer">
+                <br>
+          <div class="container">
+                    <h1 style="color:white; font-family: Cabin; font-size: 1.8rem;">VR CLUB at UCSD</h1>
+                    <div class="flexbox-container">
+                        <div>
+                            <p>SITEMAP</p>
+                            <div class="links">
+                                <p><a href="#about">About</a><p>
+                                <p><a href="#resources">Resources</a><p>
+                                <p><a href="https://ucsdvr.wordpress.com/posts/">Blog</a><p>
+                            </div>
+                        </div>
+                        <div>
+                            <p>GET IN TOUCH</p>
+                            <div class="links">
+                                virtualreality@ucsd.edu
+                            </div>
+                        </div>
+                    </div>
+          </div>
+                <br><br>
+        </footer>
+    </div>
+  </body>
+
+</html>

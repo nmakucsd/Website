@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>VR Club at UCSD</title>
+	<link rel="icon" href="./images/Logo_Final_Square_lowres.png" type="image/png"/>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+        <div id="header">
+                <div class="container">
+                    <div role="navigation" class="navbar-custom navbar navbar-default navbar-fixed-top navbar-inverse">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                                </button>
+                                <a href="/" class="navbar-brand"><img style="margin-top:-17%;height:200%;" src="./images/VR_Club-logo.png"></a>
+                            </div>
+                            <div class="collapse navbar-collapse">
+                                <ul class="nav navbar-nav navbar-left">
+<li>
+    										<a style="color:white !important;"href="./index.html">Home</a>
+    									</li>
+                      <li >
+                        <a href="/about" style="color:white !important;" >About</a>
+                      </li>
+			<li>
+			<a style="color:white !important;"href="https://ucsdvr.wordpress.com/posts/">Blog</a>
+			</li>
+			<li>
+			<a style="color:white !important;"href="/projects">Projects</a>
+			</li>
+			<li>
+			<a style="color:white !important;"href="http://hackxr.io/">Hackathon</a>
+			</li>
+                                </ul>
+                                <!--<ul class="nav navbar-nav navbar-right">
+                                    {{#if user}}
+                                    <li><a href="/keystone/signout">Sign Out</a></li>
+                                    {{else}}
+                                    <li><a href="/keystone/signin">Sign In</a></li>
+                                    {{/if}}
+                                </ul>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    <div>
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+
+
+        <style>
+            .navbar-custom{
+                background-color: #0881A3;
+                font-family: Cabin;
+            }
+
+            .navbar-left > li > a {
+                color: black !important;
+            }
+
+            .welcome-banner{
+   background-color: #233142;
+
+
+            }
+
+            .banner-image{
+                max-width: 100%;
+                max-height: 40rem !important;
+                margin: 3rem;
+
+            }
+
+            .footer{
+                background-color: #005689;
+                min-height: 25vh !important;
+                font-family: Cabin;
+                color: white;
+            }
+
+            @font-face {
+                font-family: Cabin;
+                src: url("./fonts/cabin/Cabin-SemiBold.otf") format("opentype");
+            }
+
+            .links{
+                font-family: 'Open Sans', sans-serif;
+                color: black;
+            }
+
+            .links > p > a {
+                color: black;
+            }
+
+            .flexbox-container {
+                display: -ms-flex;
+                display: -webkit-flex;
+                display: flex;
+            }
+
+            .flexbox-container > div {
+                width: 50%;
+            }
+
+            .flexbox-container > div:first-child {
+                margin-right: 10%;
+                width: 40%;
+            }
+
+
+            .side-info{
+                margin-left: 50%;
+            }
+
+            .side-info2{
+                font-family: Cabin;
+                margin-right: 50%;
+            }
+
+            .events{
+                background-color: #2B3964;
+                min-height: 75vh !important;
+                color: white;
+            }
+
+            .project-preview{
+                height: 25rem;
+                width: 25rem;
+                border-radius: 0.5rem;
+                background-color: tomato;
+                display: inline-block;
+                margin: 1rem;
+            }
+
+            .carousel-inner > .item > img,
+            .carousel-inner > .item > a > img {
+              height: 50rem !important;    /* Set slide height here */
+                width: 100%;
+            }
+
+            .officer-card {
+                background-color: #F85F73;
+                height: 35rem;
+                margin-bottom: 3.5rem;
+            }
+
+            .officer-card > img {
+                height: 80%;
+                width: 100%;
+
+            }
+
+
+        </style>
+        <section class="welcome-banner" id="container">
+            <br><br><br>
+<center><img class="banner-image" src="./images/Newsletter_Banner.png"></center>
+        </section>
+
+
+
+        <section class="container" id="about">
+            <center><h1 style="font-family:Cabin; font-size: 4rem;">Virtual Reality for Cyber-Archaeology Hackathon</h1></center>
+            <center><h2 style="font-family:Cabin; font-size: 3rem;">Presented by</h2></center>
+	    <img src="http://ccas.ucsd.edu/images/logo.png" style="max-width: 45%; max-height: 8em; display: inline-block;">
+            <img src="./images/newsletter_banner.jpg" style="float: right; max-height: 7em; max-width: 45%;display: inline-block;">
+	    <center>
+            <br>
+            <br>
+<p style="font-family: 'Open Sans', sans-serif; font-size: 1.3em; text-align: justify;">
+This Spring, VR Club at UCSD is partnering with the Center for Cyber-Archaeology & Sustainability at UCSD to host a VR Cyber-Archaeology hackathon. Participants will have 36 hours to create a Virtual Reality experience with applications for at-risk archaeological sites from the eastern Mediterranean region. All attendees will be provided with a wealth of archaeological data and VR equipment for their hacks.
+<br><br>
+<b>When:</b> Friday, April 7 - Sunday, April 9<br>
+<b>Where:</b> B210 (VR Lab) in EBU3 Basement & CSE1202 in EBU3 First Floor
+</p>
+                <br>
+            </center>
+        </section>
+<!--<section  id="about" style="background-color: #f23557;">
+<div class="container">
+            <center><h2 style="font-family:Cabin; font-size: 3rem; color: white;">What is a Hackathon?</h2></center>
+            <br>
+<p style="font-family: 'Open Sans', sans-serif; font-size: 1.3em; text-align: justify;">
+A Hackathon is a coding marathon that lasts anywhere from 12 to 36 hours. During a Hackathon, students work with a team to create an innovative project completely from scratch, with no prior work allowed. Participants are provided with food, space, mentorship, and the equipment needed to complete their projects. At the end, all attendees will present their work, and judges will award prizes to the top projects.
+<br><br>
+</p>
+                <br>
+            </center>
+</div>
+        </section>-->
+        <br>
+        <br>
+	<section style="padding:4em; background-color: #f23557;">
+	<div class="row">
+	<div class="col-xs-6 col-md-6">
+        <center><h2 style="font-family:Cabin; font-size: 2rem; color:white;">What is a Hackathon?</h2></center>
+<p style="font-family: 'Open Sans', sans-serif; font-size: 1.3em; text-align: justify; color:black;">
+A Hackathon is a coding marathon that lasts anywhere from 12 to 36 hours. During a Hackathon, students work with a team to create an innovative project completely from scratch, with no prior work allowed. Participants are provided with food, space, mentorship, and the equipment needed to complete their projects. At the end, all attendees will present their work, and judges will award prizes to the top projects.
+
+</p>
+</center>
+        </div>
+	<div class="col-xs-6 col-md-6">
+
+        <center><h2 style="font-family:Cabin; font-size: 2rem; color:white;">Who can attend?</h2></center>
+<p style="font-family: 'Open Sans', sans-serif; font-size: 1.3em; text-align: justify; color:black;">
+All UCSD students can apply for this Hackathon! We especially encourage students interested in archaeology or VR technology to attend. Teams will consist of 1-2 anthropology students, and 3-4 engineers, with a maximum team size of 5 students. Roughly 10 anthropology/archaeology students and 40 engineers will be selected from the applicant pool, for a total of 10 teams and 50 participants.
+
+</p>
+</center>
+
+        </div>
+	</div>
+</div>
+	</section>
+	<section style="padding:4em; background-color: #2e94b9;">
+	<div class="row">
+	<div class="col-xs-6 col-md-6">
+        <center><h2 style="font-family:Cabin; font-size: 2rem; color:white;">What should I bring?</h2></center>
+<p style="font-family: 'Open Sans', sans-serif; font-size: 1.3em; text-align: justify; color:black;">
+Participants should bring a valid UCSD student ID, any toiletries needed during the hackathon, a sleeping bag or pillow for rest, and an open mind! We recommend students bring their own laptops, though VR ready computers will be provided during the event. Students will also be allowed to leave and return throughout the event for rest or any forgotten items.
+</p>
+</center>
+        </div>
+	<div class="col-xs-6 col-md-6">
+
+        <center><h2 style="font-family:Cabin; font-size: 2rem; color:white;">What will be provided?</h2></center>
+<p style="font-family: 'Open Sans', sans-serif; font-size: 1.3em; text-align: justify; color:black;">
+We’ll be providing all necessary VR hardware, space, data, computers, and computer peripherals. Food will also be provided at regular intervals throughout the event, though students will need to eat outside of the VR Lab. Additionally, there will be VR and archaeology workshops and mentors during the Hackathon.
+</p>
+</center>
+
+        </div>
+<br>
+<br>
+<br>
+	</div>
+</div>
+
+	</section>
+
+        <footer class="footer">
+                <br>
+          <div class="container">
+                    <h1 style="color:white; font-family: Cabin; font-size: 1.8rem;">VR CLUB at UCSD</h1>
+                    <div class="flexbox-container">
+                        <div>
+                            <p>SITEMAP</p>
+                            <div class="links">
+                                <p><a href="#about">About</a><p>
+                                <p><a href="#resources">Resources</a><p>
+                                <p><a href="https://ucsdvr.wordpress.com/posts/">Blog</a><p>
+                            </div>
+                        </div>
+                        <div>
+                            <p>GET IN TOUCH</p>
+                            <div class="links">
+                                virtualreality@ucsd.edu
+                            </div>
+                        </div>
+                    </div>
+          </div>
+                <br><br>
+        </footer>
+    </div>
+  </body>
+
+</html>
