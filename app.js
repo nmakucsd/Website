@@ -33,7 +33,7 @@ app.use(express.json());
 //app.use(express.cookieParser('Intro HCI secret key'));
 //app.use(express.session());
 //app.use(app.router);
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '/public')));
 
 //route definition when using 'get'
 //reffered to as a 'route handler (callback)'

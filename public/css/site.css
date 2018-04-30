@@ -18,6 +18,18 @@ ul {
 	margin: 0;
 }
 
+h1 {
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+}
+
+h3 {
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+}
+
 .container {
 	margin: auto;
 	padding: 0 15px;
@@ -102,4 +114,13 @@ ul {
 	color: black;
 	text-align: center;
 	margin: auto;
+}
+
+.section {
+	padding-top: 5rem !important;
+}
+
+#about .container, #schedule .container, #projects .container, #leadership .container, #sponsors .container {
+	display: block !important;
+}
 }
