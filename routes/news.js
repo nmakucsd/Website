@@ -2,5 +2,5 @@
 
 exports.view = function(req, res){
 	//console.log(data);
-	res.render('projects');
+	res.render('news');
 };

@@ -15,6 +15,8 @@ var index = require('./routes/index');
 var officers = require('./routes/officers');
 var hackathon = require('./routes/hackathon');
 var projects = require('./routes/projects');
+var about = require('./routes/about');
+var news = require('./routes/news');
 
 //initialize the app
 var app = express();
@@ -42,6 +44,8 @@ app.get('/', index.view);
 app.get('/officers', officers.view);
 app.get('/hackathon', hackathon.view);
 app.get('/projects', projects.view);
+app.get('/about', about.view);
+app.get('/news', news.view);
 
 //starts the server on port 3000
 http.createServer(app).listen(app.get('port'), function(){
