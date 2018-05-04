@@ -92,6 +92,11 @@ a {
 	margin: 0;
 }
 
+.bold {
+	font-style: bold;
+	font-weight: 600;
+}
+
 .container {
 	margin: auto;
 	padding: 0 15px;

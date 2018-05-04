@@ -1,0 +1,103 @@
+{
+	"presidents" : {
+		"1" : {
+			"title" : "President",
+			"name" : "Nisha",
+			"major" : "coder",
+			"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"img" : "images/svg/placeholder.svg"
+		},
+		"2" : {
+			"title" : "Vice-President",
+			"name" : "Joanne",
+			"major" : "computer dingy",
+			"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"img" : "images/svg/placeholder.svg"
+		}
+	},
+	"committees" : {
+		"1" : {
+			"title" : "Events",
+			"chair" : {
+				"name" : "Sasha",
+				"major" : "_",
+				"description" : "_",
+				"img" : "images/svg/placeholder.svg"
+			},
+			"member-count" : "1",
+			"members" : {
+				"1" : {
+					"name" : "Brian",
+					"title" : "Equipment Manager",
+					"img" : "images/svg/placeholder.svg"
+				}
+			}
+		},
+		"2" : {
+			"title" : "PR",
+			"chair" : {
+				"name" : "Ulric",
+				"major" : "_",
+				"description" : "_",
+				"img" : "images/svg/placeholder.svg"
+			},
+			"member-count" : "0",
+			"members" : {
+				"1" : {
+					"name" : "Cody",
+					"title" : "Designer",
+					"img" : "images/svg/placeholder.svg"
+				},
+				"2" : {
+					"name" : "Robin",
+					"title" : "Historian / Designer",
+				"img" : "images/svg/placeholder.svg"
+				}
+			}
+		},
+		"3" : {
+			"title" : "Branding",
+			"chair" : {
+				"name" : "Michelle",
+				"major" : "_",
+				"description" : "_",
+				"img" : "images/svg/placeholder.svg"
+			},
+			"member-count" : "2",
+			"members" : {
+				"1" : {
+					"name" : "Cody",
+					"title" : "Designer",
+					"img" : "images/svg/placeholder.svg"
+				},
+				"2" : {
+					"name" : "Robin",
+					"title" : "Historian / Designer",
+				"img" : "images/svg/placeholder.svg"
+				}
+			}
+		},
+		"4" : {
+			"title" : "Projects",
+			"chair" : {
+				"name" : "Samuel",
+				"major" : "_",
+				"description" : "_",
+				"img" : "images/svg/placeholder.svg"
+			},
+			"member-count" : "2",
+			"members" : {
+				"1" : {
+					"name" : "Justin",
+					"title" : "Internal Project Manager: Advanced",
+					"img" : "images/svg/placeholder.svg"
+				},
+				"2" : {
+					"name" : "Helen",
+					"title" : "Internal Project Manager: Beginner",
+					"img" : "images/svg/placeholder.svg"
+				}
+			}
+		}
+	}
+}

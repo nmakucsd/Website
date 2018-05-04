@@ -1,3 +1,7 @@
+var data = require('../committees.json');
+
 exports.view = function(req, res){
-	res.render('officers');
+
+	res.render('officers', data);
+
 };
