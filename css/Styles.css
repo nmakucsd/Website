@@ -26,6 +26,10 @@
     font-size: 18px;
 }
 
+.center {
+    text-align: center;
+}
+
 @media(min-width:768px) {
     .intro {
         height: 100%;
